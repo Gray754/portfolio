@@ -3,6 +3,12 @@
     justify-content: center;
     // margin: 75px 0;
     background: #393f3f;
+
+    a{
+        &:hover{
+            background: none;
+        }
+    }
 }
 
 .projectsContent{
