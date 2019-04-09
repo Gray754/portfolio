@@ -1,5 +1,7 @@
 import React from 'react'
 import './Projects.scss'
+import WellTreadImg from './welltread.png'
+import ServiceDashImg from './servicedash.png'
 
 export default function Projects(){
     return(
@@ -9,7 +11,7 @@ export default function Projects(){
                 <div className='project-one'>
                     <span  className='anchor'/>
                     <h3>Service Dash</h3>
-                    <a href='http://www.service-dash.com/' target='_blank'><img src='https://github.com/Gray754/personal_project/raw/master/landing.png' alt='ServiceDash Landing Page'/></a>
+                    <a href='http://www.service-dash.com/' target='_blank'><img src={ServiceDashImg} alt='ServiceDash Landing Page'/></a>
                     <div className='projectLinks'>
                         <div>
                             <a href='http://www.service-dash.com/' target='_blank'><p>Visit Website</p></a>
@@ -21,7 +23,7 @@ export default function Projects(){
                 </div>
                 <div className='project-two'>
                     <h3>Well Tread</h3>
-                    <a href='https://www.welltread.co/' target='_blank'><img src='https://lh3.googleusercontent.com/9xnTJMkbTJWhaY4d3dJSYw1b06sOwkIAxp3vvGGYgdNM4uh0S8_2kLgJnyh217VvA7SwX4kL4rG60una8fZGLolO7eE0-SJaP4ndMOvp1Q0biCNPb61oItDSuFY-jr9T6IFRbGHreSsj9Ae7E_-4EFTsmwX4ubPneO5g6iifQy5LSxp7P-3Eyfnbh5mFXrEOaEWjr3fWFIDkS9nHZByRv2hEu4WrcqlFwKu205IqbbP8Dgc52MDNOBy_mYs3Yjszj5xfJS5LQGH9y1o6NcPg-_QnfqEwbJQdNfO5vkdTWH9xSSoFJ45hp8bHblTirdn0mChkZAjyT1WNfaTGoJm2TAz2oPCr8MQsGttudwsk0vlMhNpB9nQxPJTBr-YJvWZG1gEKkGLt0ihBvxZ1dGQs5F2uySBv6HOrJ-TymtAzAmPh2W5qZeOShabHAwUWpsMdqFnKCqrYwOeNfFhAn_wIvCKg8r7BzOLKhySQxGsmNmdDJIQemZT4gIjroIukf5wJruTIX4MPBkq3PTIPu3z9W3H7t8trcN6qJo721Z9ouVimSOsZPaiAiuA03g4yqCVhekH9XZ98bZZQxCaKpRc-rMawu4rvVhcJbWUrK0xyJiILQ_UtbqRef2PuhW1Gi3vJhvnU4ZQ5uZscrn0qKUMWgd24ufeIdg4=w2460-h1400-no' width='300px'/></a>
+                    <a href='https://www.welltread.co/' target='_blank'><img src={WellTreadImg} width='300px'/></a>
                     <div className='projectLinks'>
                         <div>
                             <a href='https://www.welltread.co/' target='_blank'><p>Visit Website</p></a>
