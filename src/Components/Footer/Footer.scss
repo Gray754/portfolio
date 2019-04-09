@@ -1,0 +1,17 @@
+.footerContainer{
+    width: 100%;
+    background:  rgb(233, 78, 54);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+}
+
+.footerContent{
+    color: whitesmoke;
+    padding: 20px 0;
+    p{
+        font-size: .7em;
+        font-style: italic;
+    }
+}

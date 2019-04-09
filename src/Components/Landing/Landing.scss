@@ -1,0 +1,46 @@
+@import '../../theme.scss';
+
+.landingContainer{
+    height: 100vh;
+    // width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    &:before{
+        background-image: url('https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+        background-size: cover;
+        // background-position: center -185px;
+        content: '';
+        opacity: 0.8;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+.landingContent{
+    text-align: center;
+    img{
+        border-radius: 50%;
+        border: 3px solid white;
+        box-shadow: 0 2px 3px black;
+    }
+    h2{
+        font-size: 3em;
+        color: white;
+        text-shadow: 0 0px 3px black;
+        padding: 20px 0;
+    }
+    h3{
+        font-size: 1.5em;
+        color: white;
+        line-height: 1.1em;
+        text-shadow: 0 0px 3px black;
+        width: 70%;
+        margin: auto;
+    }
+}
